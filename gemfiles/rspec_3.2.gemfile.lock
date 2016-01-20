@@ -2,7 +2,7 @@ PATH
   remote: ../
   specs:
     rspec-retry (0.4.5)
-      rspec-core
+      rspec-core (>= 3.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -78,3 +78,6 @@ DEPENDENCIES
   pry-byebug
   rspec (~> 3.2.0)
   rspec-retry!
+
+BUNDLED WITH
+   1.11.2
